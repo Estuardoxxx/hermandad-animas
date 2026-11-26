@@ -153,7 +153,32 @@ footer{padding:35px 0;text-align:center;color:var(--muted);font:12px Arial,sans-
   </div>
 </section>
 
-<section id="galeria"><div class="wrap"><div class="section-title"><div class="kicker">Memoria visual</div><h2>Galería fotográfica</h2><p>Un espacio para contemplar fotografías de las procesiones y actividades.</p></div><div class="gallery"><img src="assets/jesus-nazareno.jpg" alt="Fotografía de Jesús Nazareno de las Ánimas"><div class="seal"><img src="assets/emblema-hermandad.png" alt="Emblema de la hermandad"></div></div><p class="notice">Las fotografías se mostrarán para consulta y visualización.</p></div></section>
+<section id="ubicacion">
+  <div class="wrap">
+    <div class="section-title">
+      <div class="kicker">Lunes Santo 2027</div>
+      <h2>Ubicación del cortejo</h2>
+      <p>Sigue el caminar de Jesús Nazareno de las Ánimas.</p>
+    </div>
+
+    <div class="card">
+      <h3>Ubicación en tiempo real</h3>
+      <p id="estadoUbicacion">
+        La ubicación estará disponible el Lunes Santo.
+      </p>
+
+      <div id="mapaCortejo"
+        style="height:350px; border-radius:12px; background:#24202b; display:flex; align-items:center; justify-content:center; text-align:center; padding:15px;">
+        <p>El mapa del cortejo estará disponible próximamente.</p>
+      </div>
+
+      <p id="ultimaActualizacion">
+        Esperando el inicio de la transmisión.
+      </p>
+    </div>
+  </div>
+</section>
+
 <section id="unete"><div class="wrap"><div class="section-title"><div class="kicker">Forma parte</div><h2>Únete a nuestra Hermandad</h2><p>Si deseas solicitar información para integrarte, puedes preparar tu solicitud aquí.</p></div>
 <form id="joinForm" action="https://formsubmit.co/hermandadjesusdelasanimas@gmail.com" method="POST"><label>Nombre completo<input name="nombre" required autocomplete="name"></label><label>Edad<input name="edad" type="number" min="1" required></label><label>Teléfono<input name="telefono" type="tel" required autocomplete="tel"></label><label>Correo electrónico<input name="correo" type="email" autocomplete="email"></label><label class="full">¿Por qué deseas integrarte?<textarea name="motivo" required></textarea></label> <div class="full">
 <button type="submit">Enviar solicitud</button>
