@@ -29,6 +29,33 @@ form{max-width:700px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:
 .notice{color:var(--muted);font:13px Arial,sans-serif;text-align:center;margin-top:16px}
 footer{padding:35px 0;text-align:center;color:var(--muted);font:12px Arial,sans-serif;letter-spacing:.08em}footer strong{color:var(--gold)}
 @media(max-width:760px){.nav{align-items:flex-start;flex-direction:column}.hero{grid-template-columns:1fr;padding-top:35px}.hero-photo{order:-1;height:55vh;min-height:340px}.grid,.gallery,.list{grid-template-columns:1fr}nav{gap:12px}form{grid-template-columns:1fr}.full{grid-column:auto}}
+
+@media (max-width:760px) {
+  .nav {
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  header .brand img {
+    width: 65px;
+    height: auto;
+  }
+
+  header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 8px;
+    font-size: 10px;
+  }
+
+  header nav a {
+    font-size: 10px;
+    letter-spacing: 0;
+  }
+}
 </style>
 </head>
 <body>
